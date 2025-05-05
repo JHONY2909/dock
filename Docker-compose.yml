@@ -2,7 +2,7 @@ services:
   web:
     image: python:3.13-alpine
     build: 
-      context: "https://github.com/JHONY2909/jhonydock1.git"
+      context: "https://github.com/JHONY2909/dock.git"
       dockerfile: Dockerfile
     volumes:
       - .:/app
